@@ -1,0 +1,67 @@
+.skills-page {
+  .text-zone {
+    // border: 1px solid red; // Remove test code.
+    height: 410px;
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+    text-align: center;
+
+    .stacks {
+      &.box {
+        // border: 1px solid blue; // Remove test code.
+        width: 125px;
+        display: inline-block;
+
+        .js-icon {
+          // border: 1px solid red; // Remove test code.
+          display: block;
+          font-size: 40px;
+          color: #efdb63;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .react-icon {
+          // border: 1px solid red; // Remove test code.
+          display: block;
+          font-size: 40px;
+          color: #29d7fc;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        .psql-icon {
+          height: 40px;
+        }
+
+        .rails-icon {
+          height: 40px;
+        }
+
+        .java-icon {
+          // border: 1px solid red; // Remove test code.
+          height: 40px;
+          display: block;
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          margin-bottom: 5px;
+        }
+
+        .ts-icon {
+          height: 40px;
+        }
+
+        .stack-name {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
