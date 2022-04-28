@@ -1,0 +1,34 @@
+.home-page {
+  img {
+    // border: 1px solid red; // Remove test code.
+    height: 350px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+  }
+
+  .text-zone {
+    // border: 1px solid red; // Remove test code.
+    height: 175px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 370px;
+    text-align: center;
+
+    .button {
+      background: rgb(75, 75, 75);
+      padding: 5px 10px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+
+      &:hover {
+        background: rgb(150, 150, 150);
+      }
+    }
+  }
+}
