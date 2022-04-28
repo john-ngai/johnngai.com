@@ -1,0 +1,89 @@
+.navbar {
+  // border: 1px solid red; // Remove test code.
+  height: 50px;
+  width: 100%;
+  min-width: 1300px;
+  position: absolute;
+  top: 0;
+  background: rgb(75, 75, 75);
+  
+  .logo {
+    // border: 1px solid red; // Remove test code.
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+      // border: 1px solid red; // Remove test code.
+      display: block;
+      height: 40px;
+      padding: 5px 0;
+    }
+  }
+
+  nav {
+    // border: 1px solid red; // Remove test code.
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+  
+    a {
+      // border: 1px solid red; // Remove test code.
+      color: white;
+      font-size: 20;
+      font-weight: bold;
+      text-decoration: none;
+      margin-left: 40px;
+      
+      &:hover {
+        color: black;
+        border-bottom: 2px solid black;
+        padding-bottom: 1px;
+      }
+    }
+
+    a.active {
+      color: black;
+      border-bottom: 2px solid black;
+      padding-bottom: 1px;
+    }
+  }
+
+  ul {
+    // border: 1px solid red; // Remove test code.
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    bottom: -5px;
+    list-style: none;
+
+  
+    li {
+      display: inline-block;
+      margin-left: 20px;
+      
+      a {
+        // border: 1px solid red; // Remove test code.
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+
+  .bars-icon {
+    // border: 1px solid red; // Remove test code.
+    // display: none; // Uncomment to hide icon.
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 15%;
+  }
+}
