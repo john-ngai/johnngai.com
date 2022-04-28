@@ -26,7 +26,7 @@ export default function Skills() {
           Feel free to check out my profile on <a href='https://www.linkedin.com/in/john-ngai/' target='_blank'>LinkedIn</a>, or view my cv with this <a href='https://docs.google.com/document/d/17OXadtT4VOeEQQNG9BC4gma6pYHWYZw7_JcYxogQZJU/edit?usp=sharing' target='_blank'>link</a>.
         </p>
 
-        <h1>Experiences</h1>
+        <h1>Experience</h1>
         <p>
           As a developer, I strive for mastery, and understand that consistent continued
           education is essential. Below is a snap-shot of my current experience measured
