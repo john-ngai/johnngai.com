@@ -1,5 +1,6 @@
-import { faJs, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faJsSquare, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons';
+import psqlIcon from '../../assets/images/psql-icon.png';
 import './index.scss';
 
 export default function About() {
@@ -9,6 +10,7 @@ export default function About() {
         <FontAwesomeIcon className='js-icon' icon={faJsSquare} />
         <FontAwesomeIcon className='react-icon' icon={faReact} />
         <FontAwesomeIcon className='nodeJs-icon' icon={faNodeJs} />
+        <img className='psql-icon' src={psqlIcon} alt='psql icon' />
       </div>
       
       <div className='text-zone'>
