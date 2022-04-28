@@ -1,0 +1,40 @@
+.about-page {
+  .stacks {
+    // border: 1px solid red; // Remove test code.
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15px;
+
+    .js-icon {
+      font-size: 40px;
+      margin: 0 10px;
+      color: #efdb63;
+    }
+
+    .react-icon {
+      font-size: 40px;
+      margin: 0 10px;
+      color: #29d7fc;
+    }
+
+    .nodeJs-icon {
+      font-size: 40px;
+      margin: 0 10px;
+      color: #7bb651;
+    }
+  }
+  
+  .text-zone {
+    // border: 1px solid red; // Remove test code.
+    height: 275px;
+    width: 600px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+    text-align: center;
+  }
+}
