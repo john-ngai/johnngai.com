@@ -1,0 +1,16 @@
+.contact-page {
+  .text-zone {
+    // border: 1px solid red; // Remove test code.
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    text-align: center;
+    
+    .email {
+      font-weight: bold;
+    }
+  }
+}
