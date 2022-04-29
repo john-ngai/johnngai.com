@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import './App.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='about' element={<About />} />
         <Route path='skill' element={<Skills />} />
         <Route path='portfolio' element={<Portfolio />} />
+        <Route path='contact' element={<Contact />} />
       </Route>
     </Routes>
   );
