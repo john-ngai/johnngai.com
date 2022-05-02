@@ -17,17 +17,18 @@
     left: 50%;
     transform: translateX(-50%);
     top: 370px;
+    color: #9cdcfe;
     text-align: center;
 
     .button {
-      background: rgb(75, 75, 75);
+      background: #569cd6;
       padding: 5px 10px;
       color: white;
       font-weight: bold;
       text-decoration: none;
 
       &:hover {
-        background: rgb(150, 150, 150);
+        background: #9cdcfe;
       }
     }
   }
