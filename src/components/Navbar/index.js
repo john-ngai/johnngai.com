@@ -7,7 +7,7 @@ import './index.scss';
 
 export default function Navbar() {
   return (
-    <div className='navbar'>
+    <header className='navbar'>
       <Link className='logo' to='/'>
         <img src={logo} alt='logo' />
       </Link>
@@ -40,6 +40,6 @@ export default function Navbar() {
       </ul>
 
       <FontAwesomeIcon className='bars-icon' icon={faBars} />
-    </div>
+    </header>
   );
 }
