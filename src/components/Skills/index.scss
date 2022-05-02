@@ -10,8 +10,24 @@
     top: 15px;
     text-align: center;
 
+    h1 {
+      color: #569cd6;
+    }
+
+    p {
+      color: #9cdcfe;
+    }
+
     .stacks {
+      h2 {
+        color: #569cd6;
+      }
+
       &.box {
+        .stack-name {
+          color: #9cdcfe;
+        }
+
         // border: 1px solid blue; // Remove test code.
         width: 125px;
         display: inline-block;
