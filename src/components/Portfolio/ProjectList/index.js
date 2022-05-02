@@ -5,7 +5,7 @@ export default function ProjectList() {
   return (
     <div className='container projects-page'>
       
-      <a href='#' target='blank'>
+      <a href='https://github.com/john-ngai/johnngai.com' target='blank'>
         <div className='project-item'>
           <span className='title'>JohnNgai.com</span>
           <span className='background'>
