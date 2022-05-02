@@ -8,8 +8,17 @@
     transform: translateX(-50%);
     width: 500px;
     text-align: center;
+
+    h1 {
+      color: #569cd6;
+    }
+
+    p {
+      color: #9cdcfe;
+    }
     
     .email {
+      color: #9cdcfe;
       font-weight: bold;
     }
   }
