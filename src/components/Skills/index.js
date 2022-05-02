@@ -17,10 +17,12 @@ export default function Skills() {
         </p>
         <p>
           Although I consider myself a junior developer, I have a good sense of
-          organization, attention-to-detail, and am a quick learner. I am proud
-          of my work and believe that writing clean quality code is an expression
-          of my craftsmanship and professionalism. I would love to contribute to
-          next project, and continue to provide any kind of support thereafter.
+          organization, attention-to-detail, and am a quick learner.
+        </p>
+        <p>
+          I always aim to create work that I can be proud of, and believe that writing clean quality code
+          is the standard we should all upkeep as professionals in our craft. I would love to contribute to
+          your next project, and continue to provide any kind of support thereafter.
         </p>
         <p>
           Feel free to check out my profile on <a href='https://www.linkedin.com/in/john-ngai/' target='_blank'>LinkedIn</a>, or view my cv with this <a href='https://docs.google.com/document/d/17OXadtT4VOeEQQNG9BC4gma6pYHWYZw7_JcYxogQZJU/edit?usp=sharing' target='_blank'>link</a>.
@@ -34,7 +36,7 @@ export default function Skills() {
         </p>
 
         <div className='stacks'>
-          
+
           <h2>&gt;5000 lines</h2>
           <div className='stacks box'>
             <FontAwesomeIcon className='js-icon' icon={faJsSquare} />
