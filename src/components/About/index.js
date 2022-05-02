@@ -26,7 +26,7 @@ export default function About() {
         </p>
         <p>
           If I were to define myself in one sentence, that would be a extroverted,
-          mentoring, bookworm, and tech-obsessed!!!
+          patient, bookworm, and tech-obsessed!!!
         </p>
       </div>
     </div>
