@@ -5,7 +5,7 @@ import './index.scss';
 export default function Home() {
   return (
     <div className='container home-page'>
-      <img src={profile} alt='profile image' />
+      <img src={profile} alt='profile' />
       <div className='text-zone'>
         <h1>Hi, I'm John 👋</h1>
         <h2>Full Stack Developer</h2>
