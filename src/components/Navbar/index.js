@@ -1,8 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import classNames from 'classnames';
 import logo from '../../assets/images/logo.png';
 import './index.scss';
 
@@ -30,18 +28,18 @@ export default function Navbar() {
         <a
           href='https://www.linkedin.com/in/john-ngai/'
           target='_blank'
+          rel="noopener"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href='https://github.com/john-ngai/'
           target='_blank'
+          rel="noopener"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
       </nav>
-
-      {/* <FontAwesomeIcon className='bars-icon' icon={faBars} /> */}
 
     </header>
   );
