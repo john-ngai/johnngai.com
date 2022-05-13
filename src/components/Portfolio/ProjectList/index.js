@@ -93,7 +93,7 @@ export default function ProjectList() {
         </div>
       </a>
 
-      <a href='#' target='blank'>
+      <a href='https://github.com/john-ngai/lotide' target='blank'>
         <div className='project-item'>
           <span className='title'>Lotide</span>
           <span className='background'>
