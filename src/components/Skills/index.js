@@ -25,7 +25,7 @@ export default function Skills() {
           your next project, and continue to provide any kind of support thereafter.
         </p>
         <p>
-          Feel free to check out my profile on <a href='https://www.linkedin.com/in/john-ngai/' target='_blank' rel="noopener">LinkedIn</a>, or view my cv with this <a href='https://docs.google.com/document/d/17OXadtT4VOeEQQNG9BC4gma6pYHWYZw7_JcYxogQZJU/edit?usp=sharing' target='_blank' rel="noopener">link</a>.
+          Feel free to check out my profile on <a href='https://www.linkedin.com/in/john-ngai/' target='_blank' rel="noreferrer">LinkedIn</a>, or view my cv with this <a href='https://docs.google.com/document/d/17OXadtT4VOeEQQNG9BC4gma6pYHWYZw7_JcYxogQZJU/edit?usp=sharing' target='_blank' rel="noreferrer">link</a>.
         </p>
 
         <h1>Experience</h1>

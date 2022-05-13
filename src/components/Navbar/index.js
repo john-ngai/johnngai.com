@@ -28,14 +28,14 @@ export default function Navbar() {
         <a
           href='https://www.linkedin.com/in/john-ngai/'
           target='_blank'
-          rel="noopener"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} />
         </a>
         <a
           href='https://github.com/john-ngai/'
           target='_blank'
-          rel="noopener"
+          rel="noreferrer"
         >
           <FontAwesomeIcon icon={faGithub} />
         </a>
