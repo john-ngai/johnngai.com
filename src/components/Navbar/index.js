@@ -2,6 +2,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import classNames from 'classnames';
 import logo from '../../assets/images/logo.png';
 import './index.scss';
 
@@ -12,7 +13,12 @@ export default function Navbar() {
         <img src={logo} alt='logo' />
       </Link>
 
-      <nav>
+      <input id="menu-button" class="menu-button" type="checkbox" />
+      <label class="menu-icon" for="menu-button">
+        <span class="navicon" />
+      </label>
+
+      <nav className='nav-links'>
         <NavLink to='/' exact='true'>Welcome</NavLink>
         <NavLink to='/about' className='about-link'>About</NavLink>
         <NavLink to='/skill' className='skills-link'>Skills</NavLink>
@@ -20,26 +26,23 @@ export default function Navbar() {
         <NavLink to='/contact' className='contact-link'>Contact</NavLink>
       </nav>
 
-      <ul>
-        <li>
-          <a
-            href='https://www.linkedin.com/in/john-ngai/'
-            target='_blank'
-          >
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-        </li>
-        <li>
-          <a
-            href='https://github.com/john-ngai/'
-            target='_blank'
-          >
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-        </li>
-      </ul>
+      <nav className='nav-social'>
+        <a
+          href='https://www.linkedin.com/in/john-ngai/'
+          target='_blank'
+        >
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a
+          href='https://github.com/john-ngai/'
+          target='_blank'
+        >
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+      </nav>
 
-      <FontAwesomeIcon className='bars-icon' icon={faBars} />
+      {/* <FontAwesomeIcon className='bars-icon' icon={faBars} /> */}
+
     </header>
   );
 }
