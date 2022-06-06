@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 body {
@@ -32,15 +33,24 @@ body {
     }
   }
 
-  ul {
-    list-style: none;
-    // display: none;
-    
-    li {
-      // border: 1px solid blueviolet; // Remove test code.
-      border-top: 1px solid rgb(175, 175, 175);
-      text-align: center;
-      padding: 15px;
+  .navbar-list {
+
+    &.hide {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+    }
+
+    &.show {
+      list-style: none;
+
+      li {
+        border-top: 1px solid rgb(175, 175, 175);
+        text-align: center;
+        padding: 15px;
+        cursor: pointer;
+      }
     }
   }
+
 }
