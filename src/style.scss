@@ -11,6 +11,36 @@ body {
 
 .navbar {
   width: 100%;
-  height: 50px;
+  min-height: 40px;
   border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container--icon {
+    // border: 1px solid blueviolet; // Remove test code.
+    width: 100%;
+    min-height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+
+    .icon--burger-bars {
+      font-size: 25px;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    list-style: none;
+    // display: none;
+    
+    li {
+      // border: 1px solid blueviolet; // Remove test code.
+      border-top: 1px solid rgb(175, 175, 175);
+      text-align: center;
+      padding: 15px;
+    }
+  }
 }
