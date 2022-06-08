@@ -45,9 +45,11 @@ header {
 
   .menu.show {
     transform: translateY(145.5px);
+    transition: transform 0.3s;
   }
 
   .menu.hide {
     transform: translateY(-96px);
+    transition: transform 0.3s;
   }
 }
