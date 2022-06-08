@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 // Components
 import Layout from './components/Layout';
 import Home from './components/Home';
+import Projects from './components/Projects';
 // Stylesheet
 import './style.scss';
 
@@ -23,7 +24,7 @@ export default function App() {
         >
         <Route index element={<Home />} />
         <Route path='about' element={''} />
-        <Route path='projects' element={''} />
+        <Route path='projects' element={<Projects />} />
         <Route path='contact' element={''} />
       </Route>
     </Routes>
