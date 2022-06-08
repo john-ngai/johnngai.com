@@ -26,10 +26,10 @@ export default function Header() {
       {menuIcon}
       <nav className={menuClass}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li onClick={toggleDisplay}>Home</li>
+          <li onClick={toggleDisplay}>About</li>
+          <li onClick={toggleDisplay}>Projects</li>
+          <li onClick={toggleDisplay}>Contact</li>
         </ul>
       </nav>
     </header>
