@@ -16,7 +16,7 @@ export default function App() {
   const toggleDisplay = () => setDisplayMenu(prev => !prev);
   
   // Add a unique id (nanoid) to each element within the data array.
-  const projectData = data.map(project => ({ ...project, id: nanoid() }));
+  const projectsData = data.map(project => ({ ...project, id: nanoid() }));
 
   return (
     <Routes>
@@ -30,7 +30,7 @@ export default function App() {
         >
         <Route index element={<Home />} />
         <Route path='about' element={''} />
-        <Route path='projects' element={<Projects projectData={projectData} />} />
+        <Route path='projects' element={<Projects projectsData={projectsData} />} />
         <Route path='contact' element={''} />
       </Route>
     </Routes>
