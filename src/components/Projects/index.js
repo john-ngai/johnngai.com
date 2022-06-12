@@ -1,31 +1,49 @@
+import ProjectItem from './ProjectItem';
 import './index.scss';
 
-export default function Projects() {
+export default function Projects({ projectsData }) {
+  const featuredProjectsData = projectsData.filter(project => project.featured === true);
+  const featuredProjectElements = featuredProjectsData.map(project => (
+    <ProjectItem
+      key={project.id}
+      name={project.name}
+      description={project.description}
+      languages={project.languages}
+      frameworks={project.frameworks}
+      website={project.website}
+      image={project.image}
+      featured={project.featured}
+    />
+  ));
+
+  const otherProjectsData = projectsData.filter(project => project.featured === false);
+  const otherProjectElements = otherProjectsData.map(project => (
+    <ProjectItem
+      key={project.id}
+      name={project.name}
+      description={project.description}
+      languages={project.languages}
+      frameworks={project.frameworks}
+      website={project.website}
+      image={project.image}
+      featured={project.featured}
+    />
+  ));
+
   return (
     <section className='container projects'>
-
+      
       <div className='featured-projects'>
         <h2>Featured Projects</h2>
 
-        <div className='project-item'>
-          <img src='https://raw.githubusercontent.com/john-ngai/simpli/john/scheduler/docs/02_projects%26deliverables.png' />
-          <h3>Simpli</h3>
-          <h4>Team-based project tracking app</h4>
-          <p>JavaScript, SQL, HTML/CSS</p>
-          <p>Express, React, jsonwebtoken</p>
-        </div>
-
-        <div className='project-item'>
-          <img src='https://raw.githubusercontent.com/john-ngai/simpli/john/scheduler/docs/02_projects%26deliverables.png' />
-          <h3>Simpli</h3>
-          <h4>Team-based project tracking app</h4>
-          <p>JavaScript, SQL, HTML/CSS</p>
-          <p>Express, React, jsonwebtoken</p>
+        <div className='project-items'>
+          {featuredProjectElements}
         </div>
       </div>
 
-      <div className='all-projects'>
-        <h2>All Projects</h2>
+      <div className='other-projects'>
+        <h2>Other Projects</h2>
+        {otherProjectElements}
       </div>
     </section>
   );

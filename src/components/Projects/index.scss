@@ -10,38 +10,27 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    
-    .project-item {
-      border: 1px solid black;
-      border-radius: 10px;
-      max-width: 900px;
-      padding-bottom: 5px;
-      
-      img {
-        width: 100%;
-        border-radius: 10px 10px 0 0;
-      }
 
-      h3 {
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 5px;
-        margin-bottom: 5px;
-      }
-
-      h4, p {
-        margin-left: 8px;
-      }
-
-      h4 {
-        font-size: 15px;
-        font-weight: 500;
-        margin-bottom: 5px;
-      }
-
-      p {
-        font-size: 12px;
-      }
+    .project-items {
+      max-width: 975px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
     }
+  }
+
+  .other-projects {
+    h2 {
+      margin-top: 50px;
+      padding-bottom: 20px;
+    }
+
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
 }
