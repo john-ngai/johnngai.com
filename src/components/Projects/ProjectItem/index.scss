@@ -1,7 +1,6 @@
 .project-item {
   border: 1px solid black;
   border-radius: 10px;
-  max-width: 900px;
   padding-bottom: 5px;
 
   a {
@@ -40,4 +39,12 @@
 
 .project-item:hover {
   background-color: rgb(220, 220, 220);
+}
+
+.project-item.featured {
+  width: 300px;
+}
+
+.project-item.other {
+  width: 100%;
 }
