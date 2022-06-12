@@ -42,7 +42,7 @@ export default [
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'React',
     website: 'https://github.com/john-ngai/react_travel-journal/',
-    image: 'https://github.com/john-ngai/react_travel-journal',
+    image: 'https://github.com/john-ngai/react_travel-journal/blob/main/docs/final-product.png?raw=true',
     featured: true,
   },
   {
