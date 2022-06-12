@@ -9,7 +9,7 @@ export default function FeaturedProjects(props) {
   return (
     <div className='project-item'>
       <a href={website} target='_blank' rel='noreferrer'>
-        <img src={image} />
+        {image && <img src={image} />}
         <h3>{name}</h3>
         <h4>{description}</h4>
         <p>{languages}</p>
