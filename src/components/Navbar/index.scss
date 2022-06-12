@@ -25,13 +25,13 @@
 }
 
 .menu.show {
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: transform 0.3s;
   z-index: 1;
 }
 
 .menu.hide {
-  transform: translateY(-193px);
+  transform: translateY(-243px);
   transition: transform 0.3s;
   z-index: 1;
 }
