@@ -5,4 +5,7 @@
 .page {
   position: relative;
   padding: 10px 0;
+  max-width: 1000px;
+  left: 50%;
+  transform: translateX(-50%);
 }
