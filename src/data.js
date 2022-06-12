@@ -20,7 +20,7 @@ export default [
   },
   {
     name: 'Interview Scheduler',
-    description: 'App that allows users to book & cancel interviews',
+    description: 'App for booking & canceling interviews',
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'Express, React, Axios, classnames',
     website: '',
