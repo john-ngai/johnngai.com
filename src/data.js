@@ -14,7 +14,7 @@ export default [
     description: 'Pinterest-inspired resource bulletin',
     languages: 'JavaScript, PostgreSQL, HTML/CSS',
     frameworks: 'Express, jQuery, cookie-session, bcrypt',
-    website: '',
+    website: 'https://github.com/john-ngai/resource-haven/',
     image: 'https://github.com/NealePT/lhl-midterm/blob/master/docs/resource-page.png?raw=true',
     featured: true,
   },
