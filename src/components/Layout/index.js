@@ -5,11 +5,14 @@ import Footer from '../Footer';
 import './index.scss';
 
 export default function Layout(props) {
-  const { toggleDisplay, displayMenu} = props;
+  const { toggleDisplay, hideDisplay, displayMenu} = props;
   
   return (
     <div className='app'>
-      <Header toggleDisplay={toggleDisplay} />
+      <Header
+        toggleDisplay={toggleDisplay}
+        hideDisplay={hideDisplay}
+      />
       <Navbar
         toggleDisplay={toggleDisplay}
         displayMenu={displayMenu}
