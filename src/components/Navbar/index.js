@@ -16,15 +16,15 @@ export default function Navbar(props) {
           <li className="first-list-item" onClick={toggleDisplay}>Home</li>
         </Link>
 
-        <Link to='/'>
+        {/* <Link to='/'>
           <li onClick={toggleDisplay}>About</li>
-        </Link>
+        </Link> */}
         
         <Link to='projects'>
           <li onClick={toggleDisplay}>Projects</li>
         </Link>
         
-        <Link to='/'>
+        <Link to='/contact'>
           <li onClick={toggleDisplay}>Contact</li>
         </Link>
       </ul>
