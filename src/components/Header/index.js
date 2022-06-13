@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './index.scss';
+import { Link } from 'react-router-dom';
 
 export default function Header(props) {
   const menuIcon = (
@@ -12,7 +13,11 @@ export default function Header(props) {
   
   return (
     <header>
-      <span className='logo'>John Ngai</span>
+      <Link to='/'>
+        <span className='logo'
+          onClick={props.toggleDisplay}
+        >John Ngai</span>
+      </Link>
       {menuIcon}
     </header>
   );
