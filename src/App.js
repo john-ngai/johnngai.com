@@ -8,6 +8,7 @@ import data from './data';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 // Stylesheet
 import './style.scss';
 
@@ -29,9 +30,9 @@ export default function App() {
           }
         >
         <Route index element={<Home />} />
-        <Route path='about' element={''} />
+        {/* <Route path='about' element={''} /> */}
         <Route path='projects' element={<Projects projectsData={projectsData} />} />
-        <Route path='contact' element={''} />
+        <Route path='contact' element={<Contact />} />
       </Route>
     </Routes>
   );
