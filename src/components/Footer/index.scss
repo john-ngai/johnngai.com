@@ -9,6 +9,10 @@ footer {
   align-items: center;
   padding: 10px 0;
 
+  a {
+    color: inherit;
+  }
+
   .social-icons {
     display: flex;
     gap: 15px;

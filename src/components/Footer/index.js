@@ -4,14 +4,24 @@ import './index.scss';
 
 export default function Footer() {
   const linkedInIcon = (
-    <FontAwesomeIcon className='linkedin-icon'
-      icon={faLinkedin}
-    />
+    <a href='https://www.linkedin.com/in/john-ngai/'
+      target='_blank'
+      rel='noreferrer'
+    >
+      <FontAwesomeIcon className='linkedin-icon'
+        icon={faLinkedin}
+      />
+    </a>
   );
   const githubIcon = (
-    <FontAwesomeIcon className='github-icon'
-      icon={faGithub}
-    />
+    <a href='https://github.com/john-ngai'
+      target='_blank'
+      rel='noreferrer'
+    >
+      <FontAwesomeIcon className='github-icon'
+        icon={faGithub}
+      />
+    </a>
   );
 
   return (
