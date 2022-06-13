@@ -15,7 +15,7 @@ export default function Header(props) {
     <header>
       <Link to='/'>
         <span className='logo'
-          onClick={props.toggleDisplay}
+          onClick={props.hideDisplay}
         >John Ngai</span>
       </Link>
       {menuIcon}
