@@ -15,6 +15,7 @@ import './style.scss';
 export default function App() {
   const [displayMenu, setDisplayMenu] = useState(false);
   const toggleDisplay = () => setDisplayMenu(prev => !prev);
+  const hideDisplay = () => setDisplayMenu(false);
   
   // Add a unique id (nanoid) to each element within the data array.
   const projectsData = data.map(project => ({ ...project, id: nanoid() }));
@@ -26,6 +27,7 @@ export default function App() {
             <Layout
               toggleDisplay={toggleDisplay}
               displayMenu={displayMenu}
+              hideDisplay={hideDisplay}
             />
           }
         >
