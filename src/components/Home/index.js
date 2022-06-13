@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import profile from '../../images/profile.png';
 import './index.scss';
 
@@ -6,18 +7,15 @@ export default function Home() {
     <div className='container home-page'>
       <img src={profile} alt='profile' />
 
-      <div className='text-zone author'>
+      <div className='text-zone'>
         <h1>Hi, I'm John 👋</h1>
         <h3>Full Stack Developer</h3>
         <p>
           I'm a Web Developer in Toronto, Canada. I love working on creative projects and playing around with the lastest technologies! This website is my digital archive - a collection of the things I've learned and created.
         </p>
-        
-        <button>SEE MY WORK</button>
-      </div>
-
-      <div className='text-zone projects'>
-        <h3>Featured Projects</h3>
+        <Link to='projects'>
+          <button>SEE MY WORK</button>
+        </Link>
       </div>
     </div>
   );
