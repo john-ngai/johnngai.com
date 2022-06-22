@@ -28,7 +28,16 @@ export default [
     featured: true,
   },
   {
-    name: 'Tenzi Game',
+    name: 'Quizzical',
+    description: 'Trivia questions game',
+    languages: 'JavaScript, HTML/CSS',
+    frameworks: 'React',
+    website: 'https://github.com/john-ngai/react_quizzical-app',
+    image: 'https://github.com/john-ngai/react_quizzical-app/blob/main/docs/03_answers.png?raw=true',
+    featured: true,
+  },
+  {
+    name: 'Tenzi',
     description: 'Tenzi dice game',
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'React',
@@ -75,7 +84,7 @@ export default [
   {
     name: 'Jungle',
     description: 'Mini eCommerce app',
-    languages: 'Rails 4.2, PostgrSQL, HTML/CSS',
+    languages: 'Rails 4.2, PostgreSQL, HTML/CSS',
     frameworks: 'sass-rails, jquery-rails, bcrypt, stripe',
     website: 'https://github.com/john-ngai/jungle-rails/',
     image: '',
