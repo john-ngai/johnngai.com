@@ -1,5 +1,4 @@
-// Project data
-export default [
+const data = [
   {
     name: 'Simpli',
     description: 'Team-based project tracker app',
@@ -23,8 +22,17 @@ export default [
     description: 'App for booking & canceling interviews',
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'Express, React, Axios, classnames',
-    website: '',
+    website: 'https://github.com/john-ngai/scheduler',
     image: 'https://github.com/john-ngai/scheduler/blob/main/docs/Product-Screenshot_02.png?raw=true',
+    featured: true,
+  },
+  {
+    name: 'JoieMuskoka.com',
+    description: 'Client cottage rental website',
+    languages: 'Javscript, HTML/CSS',
+    frameworks: 'React, SASS, @fortawesome',
+    website: 'https://joiemuskoka.com/',
+    image: 'https://raw.githubusercontent.com/john-ngai/joiemuskoka.com/main/docs/03.2_mobile-1.jpg?token=GHSAT0AAAAAABRZZVV6TNG7AS6DZIJXS7BQYWTCG5Q',
     featured: true,
   },
   {
@@ -51,8 +59,8 @@ export default [
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'React',
     website: 'https://github.com/john-ngai/react_travel-journal/',
-    image: 'https://github.com/john-ngai/react_travel-journal/blob/main/docs/final-product.png?raw=true',
-    featured: true,
+    image: '',
+    featured: false,
   },
   {
     name: 'Digital Business Card',
@@ -69,15 +77,6 @@ export default [
     languages: 'JavaScript, HTML/CSS',
     frameworks: 'React, sass, @fortawesome',
     website: 'https://github.com/john-ngai/johnngai.com/',
-    image: '',
-    featured: false,
-  },
-  {
-    name: 'JoieMuskoka.com',
-    description: 'Client cottage rental website',
-    languages: 'Javscript, HTML/CSS',
-    frameworks: 'Wordpress',
-    website: 'https://joiemuskoka.com/',
     image: '',
     featured: false,
   },
@@ -118,3 +117,5 @@ export default [
     featured: false,
   },
 ];
+
+export default data;
