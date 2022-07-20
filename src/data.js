@@ -56,6 +56,15 @@ const data = [
     featured: true,
   },
   {
+    name: 'Template: Responsive Layout',
+    description: 'Responsive desktop/mobile layout',
+    languages: 'JavaScript, HTML/CSS',
+    frameworks: 'React',
+    website: 'https://github.com/john-ngai/template_responsive-layout-01',
+    image: '',
+    featured: false,
+  },
+  {
     name: 'Travel Journal',
     description: 'Airbnb-inspired travel journal',
     languages: 'JavaScript, HTML/CSS',
