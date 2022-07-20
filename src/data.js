@@ -1,3 +1,5 @@
+import joieMuskokaImage from './images/joie-muskoka_mobile-1.jpg';
+
 const data = [
   {
     name: 'Simpli',
@@ -32,7 +34,7 @@ const data = [
     languages: 'Javscript, HTML/CSS',
     frameworks: 'React, SASS, @fortawesome',
     website: 'https://joiemuskoka.com/',
-    image: 'https://raw.githubusercontent.com/john-ngai/joiemuskoka.com/main/docs/03.2_mobile-1.jpg?token=GHSAT0AAAAAABRZZVV6TNG7AS6DZIJXS7BQYWTCG5Q',
+    image: joieMuskokaImage,
     featured: true,
   },
   {
